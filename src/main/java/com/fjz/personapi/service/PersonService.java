@@ -1,12 +1,12 @@
 package com.fjz.personapi.service;
 
+import com.fjz.personapi.dto.request.PersonDTO;
+import com.fjz.personapi.dto.response.MessageResponseDTO;
+import com.fjz.personapi.entity.Person;
+import com.fjz.personapi.exception.PersonNotFoundException;
+import com.fjz.personapi.mapper.PersonMapper;
+import com.fjz.personapi.repository.PersonRepository;
 import lombok.AllArgsConstructor;
-import one.digitalinnovation.personapi.dto.request.PersonDTO;
-import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
-import one.digitalinnovation.personapi.entity.Person;
-import one.digitalinnovation.personapi.exception.PersonNotFoundException;
-import one.digitalinnovation.personapi.mapper.PersonMapper;
-import one.digitalinnovation.personapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
